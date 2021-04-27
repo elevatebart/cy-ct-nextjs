@@ -1,3 +1,5 @@
+# Cypress component testing within Vercel NextJs
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Cypress component testing was also added.
@@ -6,7 +8,7 @@ Cypress component testing was also added.
 
 An example of a test can be found at [components/Button/Button.spec.jsx](./components/Button/Button.spec.jsx)
 
-## How Cypress compoennt testing was added
+## How Cypress component testing was added
 
 First install cypress specific dependencies
 
