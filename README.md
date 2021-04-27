@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Cypress component testing was also added.
 
+[Learn more](https://docs.cypress.io/guides/component-testing/introduction)
+
+An example of a test can be found at [components/Button/Button.spec.jsx](./components/Button/Button.spec.jsx)
+
 ## How Cypress compoennt testing was added
 
 First install cypress specific dependencies
@@ -31,7 +35,7 @@ We can now configure `cypress.json` to direct cypress to where are con=mponent t
 
 And update the `cypress/plugins/index.js` file to tell cypress how to start the dev-server.
 
-## Launch compoennt testing
+## Launch component testing
 
 This command will open the testing environment locally
 
