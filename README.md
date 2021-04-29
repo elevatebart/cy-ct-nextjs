@@ -1,5 +1,7 @@
 # Cypress component testing within Vercel NextJs
 
+**If you are using webpack 5 on NextJs 10 check out the [webpack5 branch](https://github.com/elevatebart/cy-ct-nextjs/tree/webpack5)**
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Cypress component testing was also added.
