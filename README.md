@@ -1,4 +1,4 @@
-# Cypress component testing within Vercel NextJs
+# Cypress component testing NextJs (webpack 5 flag on)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -20,11 +20,8 @@ Now we notice that when we launch the cypress server, it fails saying it is miss
 We install them both
 
 ```bash
-yarn add -D webpack-dev-server html-webpack-plugin@4
+yarn add -D webpack-dev-server html-webpack-plugin
 ```
-
-> **NOTE** We are installing the version 4 of the html plugin.
-> It is for now the only one compatible with webpack 4 used by NextJs under the hood.
 
 We can now configure `cypress.json` to direct cypress to where are con=mponent test files are.
 
